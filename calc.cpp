@@ -1,9 +1,12 @@
 #include <iostream>
 
+    int soma(int num1, int num2){
+        return num1 + num2;
+    }
 
 int	main(){
     
-    int num1, num2, soma;
+    int num1, num2, resultadoSoma;
 
     
     std::cout<<"Bem-vindos a calculadora de Edu F. Barreto!"<<std::endl;
@@ -15,7 +18,7 @@ int	main(){
     std::cin>>num2;
 
     //Blocos de cálculos
-    soma = num1 + num2;
+    resultadoSoma = soma(num1, num2);
     
     //Blocos de resultados para o usuário
     std::cout<<"\n";
